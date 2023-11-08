@@ -1,0 +1,24 @@
+#end_play{
+    font-size: 30px;
+}
+#hard{
+    float:right;
+    font-size: 6px;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    from{background-color: black;}
+    to{background-color: red;}
+}
+button{
+    color: purple;
+    background-color: green;
+    font-size: 30px;
+}
+#h{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}

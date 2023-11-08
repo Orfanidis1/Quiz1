@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>quiz</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body id="bdy">
+        <h1 id="title">quiz</h1>
+        <h2 id="name">By:Ethan</h2>
+        <h2 id="question"></h2>
+        <button id="btn" onclick="play()" onmouseover="changeBg()" onmouseleave="changeBg2()">Play</button>
+        <br><br>
+        <str>
+            <button id="a1" onclick="wrong()"></button>
+            <button id="a2" onclick="one()"></button>
+            <button id="a3" onclick="wrong()"></button>
+            <button id="a4" onclick="wrong()"></button>
+        </str>
+        <br><br>
+        <str>
+            <button id="a5" onclick="wrong()"></button>
+            <button id="a6" onclick="wrong()"></button>
+            <button id="a7" onclick="wrong()"></button>
+            <button id="a8" onclick="two()"></button>
+        </str>
+        <br><br>
+        <str>
+            <button id="a9" onclick="wrong()"></button>
+            <button id="a10" onclick="wrong()"></button>
+            <button id="a11" onclick="three()"></button>
+            <button id="a12" onclick="wrong()"></button> 
+        </str>
+        <br><br>
+        <str>
+            <button id="a13" onclick="wrong()"></button>
+            <button id="a14" onclick="four()"></button>
+            <button id="a15" onclick="wrong()"></button>
+            <button id="a16" onclick="wrong()"></button> 
+        </str>
+        <br><br>
+        <str>
+            <button id="a17" onclick="five()"></button>
+            <button id="a18" onclick="wrong()"></button>
+            <button id="a19" onclick="wrong()"></button>
+            <button id="a20" onclick="wrong()"></button> 
+        </str>
+        <br><br>
+        <str>
+            <button id="a21" onclick="wrong()"></button>
+            <button id="a22" onclick="six()"></button>
+            <button id="a23" onclick="wrong()"></button>
+            <button id="a24" onclick="wrong()"></button> 
+        </str>
+        <str>
+            <button id="a25" onclick="wrong()"></button>
+            <button id="a26" ondblclick="what()"></button>
+            <button id="a27" onclick="seven()"></button>
+            <button id="a28" onclick="wrong()"></button> 
+        </str>
+        <str>
+            <button id="a29" onclick="wrong()"></button>
+            <button id="a30" onclick="wrong()"></button>
+            <button id="a31" onclick="eight()"></button>
+            <button id="a32" onclick="wrong()"></button> 
+        </str>
+        <str>
+            <button id="a33" onclick="wrong()"></button>
+            <button id="a34" onclick="finish()"></button>
+            <button id="a35" onclick="wrong()"></button>
+            <button id="a36" onclick="wrong()"></button> 
+        </str>
+        <script>
+            var el_down = document.getElementById("question")
+            var el_up = document.getElementById("title")
+            var el_btn = document.getElementById("btn")
+            var el_id = document.getElementById("name")
+
+            var el_play_list = []
+            for(i=0; i< 36; i++)
+                el_play_list[i] = document.getElementById("a"+(i+1))
+
+            clearAllButtons();
+        </script>
+    </body>
+</html>

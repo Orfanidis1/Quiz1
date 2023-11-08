@@ -1,0 +1,40 @@
+#bdy{
+    text-align: center;
+    background-color: greenyellow;
+}
+#title{
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#btn{
+    color:purple;
+    background-color: green;
+    font-size: 40px;
+}
+#name{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+#question{
+    font-size: 45px;
+    color: black;
+}
+button{
+    color: purple;
+    background-color: green;
+    font-size: 30px;
+}
+#heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color: white;
+}
+#credits{
+    color: black;
+    font-size: 15px;
+}
